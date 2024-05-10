@@ -2,7 +2,7 @@
 ## Introduction
 The Employee Registration Application is a JavaFX-based system designed to manage employee information efficiently. It provides functionalities for creating an employee table in a MariaDB database, registering new employees, updating employee details, and viewing the list of employees. The application follows a Model-View-Controller (MVC) architecture to ensure clear separation of concerns and maintainability.
 
-### DB.java:
+### DB.java
 - This class establishes a connection to the MariaDB database using JDBC.
 - It contains database credentials and a constructor to initialize the connection.
 - DB(): Constructor method that initializes a connection to the MariaDB database using JDBC.
