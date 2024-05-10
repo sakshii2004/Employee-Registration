@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab_8_10.EmployeeController">
+   <children>
+      <Separator layoutX="493.0" layoutY="7.0" orientation="VERTICAL" prefHeight="694.0" prefWidth="15.0" />
+      <AnchorPane layoutX="7.0" layoutY="7.0" prefHeight="700.0" prefWidth="486.0">
+         <children>
+            <Label layoutX="114.0" prefHeight="75.0" prefWidth="257.0" text="EMPLOYEE" textFill="#2b5b04">
+               <font>
+                  <Font name="Britannic Bold" size="55.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="75.0" prefHeight="75.0" prefWidth="354.0" text="REGISTRATION" textFill="#2b5b04">
+               <font>
+                  <Font name="Britannic Bold" size="55.0" />
+               </font>
+            </Label>
+            <Label layoutX="83.0" layoutY="150.0" prefHeight="75.0" prefWidth="318.0" text="APPLICATION" textFill="#2b5b04">
+               <font>
+                  <Font name="Britannic Bold" size="55.0" />
+               </font>
+            </Label>
+            <Button layoutX="39.0" layoutY="265.0" mnemonicParsing="false" onAction="#createEmployeeTableButton" prefHeight="75.0" prefWidth="386.0" style="-fx-background-color: #357600; -fx-border-color: #0B4001; -fx-text-fill: white;" text="Create Employee Table" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="39.0" layoutY="370.0" mnemonicParsing="false" onAction="#registerEmployeeButton" prefHeight="75.0" prefWidth="386.0" style="-fx-background-color: #357600; -fx-border-color: #0B4001; -fx-text-fill: white;" text="Register Employee" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="39.0" layoutY="475.0" mnemonicParsing="false" onAction="#viewEmployeeButton" prefHeight="75.0" prefWidth="386.0" style="-fx-background-color: #357600; -fx-border-color: #0B4001; -fx-text-fill: white;" text="View Employee" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="39.0" layoutY="580.0" mnemonicParsing="false" onAction="#updateEmployeeButton" prefHeight="75.0" prefWidth="386.0" style="-fx-background-color: #357600; -fx-border-color: #0B4001; -fx-text-fill: white;" text="Update Employee" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="500.0" layoutY="1.0" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #D3FFCA;">
+         <children>
+            <TextField fx:id="employeeID" layoutX="53.0" layoutY="143.0" prefHeight="54.0" prefWidth="594.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="185.0" layoutY="14.0" prefHeight="75.0" prefWidth="330.0" text="Register Employee" textFill="#2b5b04">
+               <font>
+                  <Font name="Britannic Bold" size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="96.0" prefHeight="46.0" prefWidth="159.0" text="Employee ID" textFill="#2b5b04">
+               <font>
+                  <Font name="Tw Cen MT Condensed" size="40.0" />
+               </font>
+            </Label>
+            <TextField fx:id="employeeName" layoutX="53.0" layoutY="263.0" prefHeight="54.0" prefWidth="594.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="53.0" layoutY="216.0" prefHeight="46.0" prefWidth="159.0" text="Name" textFill="#2b5b04">
+               <font>
+                  <Font name="Tw Cen MT Condensed" size="40.0" />
+               </font>
+            </Label>
+            <TextField fx:id="employeeAge" layoutX="53.0" layoutY="383.0" prefHeight="54.0" prefWidth="594.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="53.0" layoutY="336.0" prefHeight="46.0" prefWidth="159.0" text="Age" textFill="#2b5b04">
+               <font>
+                  <Font name="Tw Cen MT Condensed" size="40.0" />
+               </font>
+            </Label>
+            <TextField fx:id="employeeEmail" layoutX="53.0" layoutY="503.0" prefHeight="54.0" prefWidth="594.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="53.0" layoutY="456.0" prefHeight="46.0" prefWidth="159.0" text="Email" textFill="#2b5b04">
+               <font>
+                  <Font name="Tw Cen MT Condensed" size="40.0" />
+               </font>
+            </Label>
+            <TextField fx:id="employeeDepartment" layoutX="53.0" layoutY="624.0" prefHeight="54.0" prefWidth="594.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </TextField>
+            <Label layoutX="53.0" layoutY="577.0" prefHeight="46.0" prefWidth="159.0" text="Department" textFill="#2b5b04">
+               <font>
+                  <Font name="Tw Cen MT Condensed" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

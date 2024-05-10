@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab_8_10.ViewEmployeeController">
+   <children>
+      <Label layoutX="406.0" layoutY="25.0" prefHeight="75.0" prefWidth="387.0" text="Registered Employees" textFill="#2b5b04">
+         <font>
+            <Font name="Britannic Bold" size="40.0" />
+         </font>
+      </Label>
+      <TableView fx:id="empTable" layoutX="57.0" layoutY="130.0" prefHeight="517.0" prefWidth="1086.0">
+        <columns>
+          <TableColumn fx:id="empID" prefWidth="119.99999618530273" text="Employee ID" />
+          <TableColumn fx:id="empName" minWidth="0.800018310546875" prefWidth="285.6000213623047" text="Name" />
+            <TableColumn fx:id="empAge" minWidth="0.800018310546875" prefWidth="107.20001220703125" text="Age" />
+            <TableColumn fx:id="empEmail" minWidth="0.800018310546875" prefWidth="311.20001220703125" text="Email " />
+            <TableColumn fx:id="empDept" minWidth="0.800018310546875" prefWidth="265.5999755859375" text="Department" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
